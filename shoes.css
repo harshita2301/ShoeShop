@@ -1,0 +1,99 @@
+
+nav{
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-bottom: 1px solid black;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Segoe Script;
+    color:black;
+    text-decoration: none;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 30px;
+        margin: 5px;
+        font-size: 20px ;
+        font-weight: bold;
+        color:black;
+        font-family: Calibri;
+     
+     }
+     .menu a:hover{
+        text-decoration: underline;
+    }
+    body{
+        background-color: RGB(241 235 231);
+
+     }
+    
+    .card {
+        
+        font-family: Century Gothic;
+        float: right;
+        margin: 30px;
+        padding: 20px;
+        margin-top: 0px;
+    
+    }
+
+    .card-image img {
+        width: 210px;
+        height: 250px;
+    }
+
+    .card-image {
+        text-align: center;
+    }
+
+    h3 {
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        line-height: 0.7;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+
+    p {
+        text-align: center;
+        font-size: 15px;
+    }
+    h2{
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+
+    .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 2px 2px;
+        cursor: pointer;
+        margin-left: 34%;
+        line-height: 0.7;
+
+    }
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+    }
+
+
+     

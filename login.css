@@ -1,0 +1,100 @@
+.signup-box{
+    width: 370px;
+    height: 610px;;
+    border-radius: 20px;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.login-box{
+    width: 360px;
+    height: 330px;;
+    border-radius: 20px;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+    margin-top: 130px;
+}
+
+body{
+    font-family:Century Gothic;
+    background-color: RGB(241 235 231);
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    outline:none ;
+    border: none;
+   
+}
+button{
+    width: 320px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+color: black;
+background-color: white;
+border: 1px solid black;
+}
+
+.para-2{
+    text-align: center;
+    color: rgb(7, 6, 6);
+    font-size: 15px; margin-top:10px;
+}
+.para-2 a{
+    color: black;
+}
+p a{
+color: black;
+}
+nav{
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Segoe Script;
+    color:black;
+    text-decoration: none;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 30px;
+        margin: 5px;
+        font-size: 20px ;
+        font-weight: bold;
+        color:black;
+        font-family: Calibri;
+     
+     }
+     .menu a:hover{
+        text-decoration: underline;
+    }
+    

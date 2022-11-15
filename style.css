@@ -1,0 +1,67 @@
+nav{
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid white;
+}
+.logo a{
+font-size: 50px;
+font-weight: bold;
+font-family:Segoe Script;
+color: white;
+text-decoration: none;
+}
+.menu a{
+   text-decoration: none;
+   padding: 30px;
+   margin: 5px;
+   font-size: 20px ;
+   font-weight: bold;
+   color:white;
+   font-family: Calibri;
+
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(https://alizila.oss-us-west-1.aliyuncs.com/uploads/2020/04/Allbirds-2-scaled.jpg);
+    background-size: 1550px 800px;
+    background-repeat:no-repeat ;
+
+}
+.para{
+    text-align: center;
+    margin-top: 280px;
+    font-size: 70px;
+    color:white;
+    font-family:Calibri ;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px black;
+
+}
+.logo-2 a{
+    text-decoration: none;
+    margin-left: 700px;
+    color: white;
+    font-size: 30px;
+    font-family: Calibri;
+    border: 2px solid white;
+    padding: 5px;
+}
+.logo-2 a:hover{
+    color: black;
+    border: 2px solid black; 
+}
+
+
+
+
+
+
+

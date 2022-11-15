@@ -1,0 +1,134 @@
+
+nav{
+    width: 100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Segoe Script;
+    color:black;
+    text-decoration: none;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 30px;
+        margin: 5px;
+        font-size: 20px ;
+        font-weight: bold;
+        color:black;
+        font-family: Calibri;
+     
+     }
+     .menu a:hover{
+        text-decoration: underline;
+    }
+    body{
+        font-family: Century Gothic;
+        background-color:  RGB(241 235 231);
+    }
+    .contact{
+        position: relative;
+        min-height: 90vh;
+        padding: 0px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+    .contact .content h1{
+        font-size: 25px;
+
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container .contactinfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .contactinfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .container .contactinfo .box .icon{
+        min-width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .contactinfo .box .text
+    {
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        flex-direction: column;
+    }
+    .contactform{
+        width: 35%;
+        height: 400px;
+        padding: 40px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+    .contactform h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .contactform .inputbox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .contactform .inputbox input
+    {
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    .contactform .inputbox button{
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .contactform .inputbox label{
+        display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+    }
+    .contactform .inputbox button:hover{
+        color: black;
+background-color: white;
+border: 1px solid black;
+    }
+
+
+
+
+
